@@ -1,0 +1,15 @@
+env: "dev"
+postgres:
+  host: "0.0.0.0"
+  port: 5432
+  user: "gen_user"
+  password: "Fjio8fF99d"
+  db_name: "default_db"
+rest:
+  port: 8080
+  read_timeout: 10s
+  write_timeout: 10s
+  idle_timeout: 10s
+mock_db:
+  user_count: 10
+  msg_count: 10
