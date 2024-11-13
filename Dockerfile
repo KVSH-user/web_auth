@@ -1,6 +1,6 @@
 # Этап сборки
 FROM golang:1.22-alpine AS builder
-ENV CGO_ENABLED=0 GOPRIVATE=searchgit.wb.ru/* TZ=Europe/Moscow
+ENV CGO_ENABLED=0 TZ=Europe/Moscow
 
 RUN apk add --no-cache git tzdata
 
